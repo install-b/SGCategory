@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Shangen zhang. All rights reserved.
 //
 
-#import "NSString+LYTRemoveSprit.h"
+#import "NSString+SGRemoveSprit.h"
 
 @implementation NSString (SGRemoveSprit)
 

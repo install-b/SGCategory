@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 Shangen zhang. All rights reserved.
 //
 
-#import "NSString+LYTHash.h"
+#import "NSString+SGHash.h"
 #import <CommonCrypto/CommonDigest.h>
 
 
