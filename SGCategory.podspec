@@ -9,17 +9,19 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/install-b/SGCategory"
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
 
   s.author       = { "ShangenZhang" => "645256685@qq.com" }
 
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/install-b/SGCategory.git", :tag => s.version }
+  s.requires_arc = true
 
+  s.source_files = 'Classes/*.h'
   s.public_header_files = "Classes/*.h"
 
-  s.default_subspec = 'SGUIKitCategory'
+  #s.default_subspec = 'SGUIKitCategory'
 
   s.subspec 'SGFoundationCateory' do |f|
 
@@ -34,7 +36,7 @@ Pod::Spec.new do |s|
     u.framework = "UIKit"
     u.source_files = 'Classes/UIKit/**/*.{h,m}'
     u.public_header_files = 'Classes/UIKit/**/*.h'
-
+   
   end
 
 end
