@@ -12,9 +12,9 @@
 /**
  *  16进制自动转换RGB颜色
  *
- *  @param hex、hexString   传入16进制色值 如:0xffffff 或 @"ffffff"
+ *  @param hex (hexString)  传入16进制色值 如:0xffffff 或 @"ffffff"
  *
- *  @return 返回iOS中支持的RGB值
+ *  @return 返回iOS中支持的RGB值的图片
  *
  *  注意：iOS中默认不支持16进制色值，但是在公司中或者UI美工一般都使用标准的16进制表示颜色，
  *  我们可以通过这个方法将美工给的16进制颜色进行转换就OK了
