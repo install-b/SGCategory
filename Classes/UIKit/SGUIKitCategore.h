@@ -11,7 +11,7 @@
 
 #import "UIColor+SGHexColor.h"
 
-#import "UIImage+SGUnity.h"
+#import "UIImage+SGExtension.h"
 
 #import "UIView+SGCorners.h"
 #import "UIView+SGFrame.h"

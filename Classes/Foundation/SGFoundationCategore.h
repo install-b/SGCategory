@@ -15,6 +15,7 @@
 #import "NSObject+SGSelector.h"
 #import "NSString+SGHash.h"
 #import "NSString+SGRegex.h"
+#import "NSString+SGRegexValid.h"
 #import "NSString+SGRemoveSprit.h"
-
+#import "NSString+SGMoney.h"
 #endif /* SGFoundationCategory_h */
