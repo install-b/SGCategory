@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SGCategory"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "common category"
 
   s.description  = "common category for Foundation and UIKit classes"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "ShangenZhang" => "645256685@qq.com" }
 
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/install-b/SGCategory.git", :tag => s.version }
   s.requires_arc = true
