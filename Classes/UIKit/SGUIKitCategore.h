@@ -9,17 +9,18 @@
 #ifndef SGUIKitCategore_h
 #define SGUIKitCategore_h
 
+#import "NSString+SGSize.h"
+
 #import "UIColor+SGHexColor.h"
 
 #import "UIImage+SGExtension.h"
+
+#import "CALayer+SGPauseAimate.h"
 
 #import "UIView+SGCorners.h"
 #import "UIView+SGFrame.h"
 #import "UIView+SGXib.h"
 
-#import "CALayer+SGPauseAimate.h"
-
-#import "NSString+SGSize.h"
-
+#import "UIViewController+SGVisible.h"
 
 #endif /* SGUIKitCategore_h */
