@@ -18,4 +18,12 @@
 #import "NSString+SGRegexValid.h"
 #import "NSString+SGRemoveSprit.h"
 #import "NSString+SGMoney.h"
+
+// 沙盒路径
+#define DocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+#define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]
+
+// 系统判断
+#define IOS_LATTER(sys) (@available(iOS sys, *))
+
 #endif /* SGFoundationCategory_h */

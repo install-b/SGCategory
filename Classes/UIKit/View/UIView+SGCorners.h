@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (SGCorners)
+// 圆角半径
+@property (assign) CGFloat cornerRadius;
 
 /**
  *  设置自定义圆角

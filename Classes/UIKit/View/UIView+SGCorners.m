@@ -9,6 +9,14 @@
 #import "UIView+SGCorners.h"
 
 @implementation UIView (SGCorners)
+- (CGFloat)cornerRadius {
+    return self.layer.cornerRadius;
+}
+- (void)setCornerRadius:(CGFloat)cornerRadius {
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius  = cornerRadius;
+}
+
 
 - (void)setCorners:(UIRectCorner)rectCorner  cornerRadii:(CGFloat)cornerRadii {
     
