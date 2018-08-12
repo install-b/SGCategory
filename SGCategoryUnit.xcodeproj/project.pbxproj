@@ -194,7 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				A745952A211FCF2600F1BDA5 /* SGUIKitCategore.h */,
-				A7459594211FEB2600F1BDA5 /* New Group */,
+				A7459594211FEB2600F1BDA5 /* Layer */,
 				A7459572211FD9AF00F1BDA5 /* View */,
 				A7459574211FD9E000F1BDA5 /* Image */,
 				A7459573211FD9CB00F1BDA5 /* Controller */,
@@ -299,21 +299,21 @@
 				A7459521211FCF2600F1BDA5 /* NSString+SGSize.m */,
 				A7459587211FE72C00F1BDA5 /* NSData+SGImageExtension.h */,
 				A7459588211FE72C00F1BDA5 /* NSData+SGImageExtension.m */,
-				A7459522211FCF2600F1BDA5 /* CALayer+SGPauseAimate.h */,
-				A745952B211FCF2600F1BDA5 /* CALayer+SGPauseAimate.m */,
-				A7459591211FEA3300F1BDA5 /* CATextLayer+SGUIKitProperty.h */,
-				A7459592211FEA3300F1BDA5 /* CATextLayer+SGUIKitProperty.m */,
 				A7459524211FCF2600F1BDA5 /* UIColor+SGHexColor.h */,
 				A745952E211FCF2600F1BDA5 /* UIColor+SGHexColor.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
 		};
-		A7459594211FEB2600F1BDA5 /* New Group */ = {
+		A7459594211FEB2600F1BDA5 /* Layer */ = {
 			isa = PBXGroup;
 			children = (
+				A7459522211FCF2600F1BDA5 /* CALayer+SGPauseAimate.h */,
+				A745952B211FCF2600F1BDA5 /* CALayer+SGPauseAimate.m */,
+				A7459591211FEA3300F1BDA5 /* CATextLayer+SGUIKitProperty.h */,
+				A7459592211FEA3300F1BDA5 /* CATextLayer+SGUIKitProperty.m */,
 			);
-			path = "New Group";
+			path = Layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
